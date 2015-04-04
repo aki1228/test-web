@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Aデザイン">
+<meta name="description" content="Aデザインは" />
+<link rel="shortcut icon" href="favicon/favicon.ico" />	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>Aデザイン｜adesign</title>
+<link rel="stylesheet" type="text/css" href="style.css">	
+<link rel="stylesheet" type="text/css" href="bgstretcher.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="icon.css">
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type="text/javascript" src="js/bgstretcher.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+         $('#content').bgStretcher({
+        resizeProportionall:true,
+        nextSlideDelay:7000,
+        slideShowSpeed:2500,
+        images: ['images/main_bg03.jpg','images/main_bg02.jpg','images/main_bg04.jpg'],
+        transitionEffect: 'fade',
+				anchoringImg: 'center',
+        });
+    });
+</script>
+
+<script type="text/javascript">
+			$(function(){
+	$('#service_slider').slick({
+		dots: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		infinite: true,
+		autoplay: true,
+		arrows: false,
+		speed: 700,
+		autoplaySpeed: 5000,
+		easing: 'swing',
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					dots: true,
+					swipe: true,
+					infinite: true,
+					autoplay: true,
+					arrows: false,
+					centerMode: false,
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					speed: 1100,
+					autoplaySpeed: 5000
+				}
+			},
+			{
+				breakpoint: 640,
+				settings: {
+					dots: true,
+					swipe: true,
+					infinite: true,
+					autoplay: true,
+					arrows: false,
+					centerMode: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					speed: 1700,
+					autoplaySpeed: 5000,
+				}
+			}
+		]
+	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+	$('a img').hover(function(){
+		$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+			}, function(){
+			   if (!$(this).hasClass('current')) {
+			   $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+		}
+	});
+});
+</script>	
+</head>
+<body>
+    
+   <div id="wrapper">
+   
+   		<!-- ヘッダー -->
+   
+   
+      <!-- スライダー -->
+      <div id="main_wrapper">       
+        <div id="content">
+        	<div id="main_logo_inner">
+           <div class="main_logo">
+           <a><img src="images/main_logo04.png" width="270" height="270" alt="Aデザイン"></a>
+           </div>
+          </div>      
+        </div>
+      </div>
+      
+      <!-- ナビゲーション -->
+      <nav id="navi">
+        <div class="navi_content">
+        <ul class="navi_list">
+        <li>        
+        <a><span class="icon-home"></span> ホーム</a>
+        </li>
+        <li>
+        <a><span class="icon-profile"></span> コンセプト</a>
+        </li>
+        <li>
+        <a><span class="icon-screen"></span> サービス</a>
+        </li>
+        <li>
+        <a><span class="icon-numbered-list"></span> 制作の流れ</a>
+        </li>
+        <li>
+        <a><span class="icon-book"></span> ブログ</a>
+        </li>
+        <li>
+        <a><span  class="icon-envelope"></span> お問い合わせ</a>
+        </li>
+        </ul>
+        
+        </div>
+      </nav>
+      
+
+      <!-- メインコンテンツ -->
+      
+        <!-- Aデザインでは -->
+        <div id="salutation">        
+        	<div class="salutation_content">
+          	<div class="salutation_inner">
+             <h2><img src="images/salutation_title.png" width="240" height="50" alt="Aデザインでは"></h2>
+             <p>Aデザインでは阪神エリア(西宮市･芦屋市･尼崎市･伊丹市･宝塚市)、神戸・大阪を中心に、<br />
+             Webサイト制作や、リニューアルをメインに請け負っております。</p>
+             <p>　</p>
+             <p>PCとスマートフォン両対応のレスポンシブデザイン、</p>
+             <p>WordPressでのサイト構築やブログ対応のご要望にもお応え致します。</p>
+             <p>簡単操作で自分でサイト更新ができるので保守管理費用もかかりません。</p>
+             <p>　</p>
+             <p>新規開業する方や、すでに開業されている方、ご自分のサイトを持って、新規のお客様を獲得したり、お客様に情報発信等のサービスを提供してみませんか？</p>
+             <p>　</p>
+             <p>また既にサイトをお持ちの方も、サイトデザインが古くなったり、思うような集客効果が望めていないなどでリニューアルを考えているなら、Aデザインにお任せください。</p>
+             <p>どんなサイトにしたいのか、どうすれば効果的に集客効果を上げれるのか一緒に考えていきましょう。</p>
+             <p>　</p>
+             <p>まずはお気軽に見積もり等ご相談ください。</p>
+            </div>
+          </div>          
+     </div>
+         
+         
+        <!-- Aデザインのサービス -->
+        <div id="service">
+         <div class="service_content">
+         		 <div class="service_inner">       
+             <h2><img src="images/service_title.png" width="260" height="50" alt="Aデザインのサービス"></h2>
+             </div>
+             　<div id="service_slider">
+             
+                  <div class="service_piece">
+                  <a>
+                  <figure>
+                  <img src="images/service_wordpress.png"  alt="wordpressサイト構築">
+                  </figure>
+                  <p>Webサイトを作成するには専門的な知識が必要になります。WordPressなら、ちょっとしたお知らせや修正作業なら、ブログを書く感覚で、自分で行えます。毎回サイトの更新で費用がかさむこともないので、コストを削減できます。</p>
+                  </a>
+                  </div>
+                  
+              　　<div class="service_piece">
+                  <a>
+                  <figure>
+                  <img src="images/service_responsive.png" width="300" height="300" alt="レスポンシブデザイン">
+                  </figure>
+                  <p>Webサイトを閲覧する環境も、昔に比べ多様化してきました。PC、タブレット、そしてスマートフォン。レスポンシブデザインなら、表示された機器の種類やサイズに応じて、最適な内容で閲覧して頂けます。</p>
+                  </a>
+                  </div>
+                  <div class="service_piece">
+                  <a>
+                  <figure>
+                  <img src="images/letter_design.png" width="300" height="300" alt="セールスレターデザイン">
+                  </figure>
+                  <p>Aデザインではセールスレターのデザインも承っております。売り上げに繋げるには文章が大事ですが、パッとお客様の目に留まり、最後まで読ませるにはデザインや構成も重要になってきます。</p>
+                  </a>
+                  </div>
+              　　<div class="service_piece">
+                  <a>
+                  <figure>
+                  <img src="images/service_wordpress.png"  alt="wordpressサイト構築">
+                  </figure>
+                  <p>Webサイトを作成するには専門的な知識が必要になります。WordPressなら、ちょっとしたお知らせや修正作業なら、ブログを書く感覚で、自分で行えます。毎回サイトの更新で費用がかさむこともないので、コストを削減できます。</p>
+                  </a>
+                  </div>
+                  <div class="service_piece">
+                  <a>
+                  <figure>
+                   <img src="images/service_responsive.png" width="300" height="300" alt="レスポンシブデザイン">
+                  </figure>
+                  <p>Webサイトを閲覧する環境も、昔に比べ多様化してきました。PC、タブレット、そしてスマートフォン。レスポンシブデザインなら、表示された機器の種類やサイズに応じて、最適な内容で閲覧して頂けます。</p>
+                  </a>
+                  </div>
+              　　<div class="service_piece">
+                  <a>
+                  <figure>
+                  <img src="images/letter_design.png" width="300" height="300" alt="セールスレターデザイン">
+                  </figure>
+                  <p>Aデザインではセールスレターのデザインも承っております。売り上げに繋げるには文章が大事ですが、パッとお客様の目に留まり、最後まで読ませるにはデザインや構成も重要になってきます。</p>
+                  </a>
+                  </div>
+               </div>
+          </div>       
+     </div>
+         
+         <!-- コンタクト -->
+     <div id="contact">
+         	<div class="contact_content">
+           <div class="contact_inner">
+           	<h2><img src="images/contact_title.png" width="280" height="50" alt="お問い合わせ"></h2>
+           </div>
+           
+           <div id="lead">
+           		 <p class="lead_txt">制作依頼やご相談、料金のお見積もりなどお気軽にお問合わせ下さい。<br />
+               </p>
+               <figure class="estimate"><a><img src="images/contact_btn_off.png" width="300" height="50" alt="お問い合わせボタン"></a></figure>       
+               <p class="lead_txt">お電話でのお問い合わせの場合はこちらから</p>
+               <figure class="estimate"><img src="images/tel_n.jpg" width="280" height="60" alt="電話番号"></figure>  
+               <figure class="bg"><img src="images/contact_image.jpg" width="340" height="220" alt="お問い合わせイメージ">
+               </figure>
+           </div>
+           
+          </div>
+       </div>
+          
+          
+          <!-- フッター -->
+          <footer class="footer_bg">
+          	<div class="footer_content">
+            	<ul>
+              <li><a><span class="icon-home"></span> ホーム</a></li>
+              <li><a><span class="icon-smiley"></span> プライバシーポリシー</a></li>
+              <li><a><span class="icon-tree"></span> サイトマップ</a></li>
+              <li><a><span  class="icon-question2"></span> よくある質問</a></li>
+              </ul>
+             <div class="copy">
+              <p>阪神エリア(西宮市･芦屋市･尼崎市･伊丹市･宝塚市)、大阪、神戸のWebサイト制作、リニューアルならAデザイン</p>
+             </div>
+             <div class="copy">
+              <p>© 2014 adesign.</p>
+            </div>
+            </div>
+          </footer>
+           
+
+             
+           
+           
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        </div>
+        
+        
+     
+
+          
+
+
+
+    
+
+    
+    
+    
+    
+    
+       
+      
+
+
+</body>
+</html>
+
